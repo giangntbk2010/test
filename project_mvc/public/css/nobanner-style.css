@@ -1,0 +1,285 @@
+/* CSS Document */
+body{padding:0; margin:0; background:url(res/main-bg.gif) 0 0 repeat-x #FCFAE6; font:14px/20px Arial, Helvetica, sans-serif; color:#3D3C2C; font-weight:normal;}
+div, p, h1, h2, h3, ul, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+/* TOP PANEL */
+#nav{width:850px; height:96px; position:relative; margin:0 auto; padding:0;}
+#nav img{width:240px; height:80px; display:block; padding:23px 0 0 6px;}
+/* Menu Panel */
+#nav ul{width:520px; height:96px; display:block; position:absolute; top:0px; right:9px; margin:0; padding:0;}
+#nav ul li{float:left; width:104px; display:block; text-align:center;}
+#nav ul li a{width:104px; height:35px; display:block; font:16px/20px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#6C989D; background:url(res/menu-bg.gif) 0 0 repeat-x #F4F1DD; text-decoration:none; margin:0; padding:61px 0 0 0; }
+#nav ul li a:hover{ width:104px; height:96px; display:block; background:#FCFAE6; color:#023A40; text-decoration:none;}
+#nav ul li span{width:104px; height:35px; display:block; background:url(res/menu-devider1.gif) 100% 0 no-repeat #FCFAE6; color:#023A40; text-decoration:none; padding:61px 0 0 0; line-height:14px;}
+
+
+/* HEADER PANAdmin*/
+#header{width:1200px; height:307px; position:relative; margin:0 auto; padding:0;}
+#header h1{width:900px; height:220px; position:absolute; top:43px; right:10px; background:url(res/roomBanner.gif) 0 0 no-repeat #FCFAE6; color:#fff; font-size:36px; line-height:18px; text-transform:uppercase; text-indent:-2000px;}
+#headerLeft{width:237px; height:214px; position:relative; top:48px ; left:9px; }
+#header #schedule{ float:left; width:237px; height:62px; position:relative; margin:0 auto; background:url(res/icon1-nor.gif) 0 0 no-repeat;}
+#header #schedule h2{width:110px; height:8px; background:#fff; display:block; position:absolute; left:0px; top:9px; margin:14px 0 5px 81px; font:14px/16px Georgia, "Times New Roman", Times, serif; color:#709CA1; z-index:1; text-transform:uppercase;}
+#header #schedule a{text-decoration:none; display:block; width:237px; height:62px;}
+#header #schedule:hover{text-decoration:none; background:url(res/icon1-hover.gif) no-repeat 0 0;}
+
+#header #workRoom{ float:left; width:237px; height:62px; position:relative; margin:13px 0 0 0; background:url(res/icon2-nor.gif) 0 0 no-repeat;}
+#header #workRoom h2{width:110px; height:8px; background:#fff; display:block; position:absolute; left:0px; top:9px; margin:14px 0 5px 81px; font:14px/16px Georgia, "Times New Roman", Times, serif; color:#709CA1; z-index:1; text-transform:uppercase;}
+#header #workRoom a{text-decoration:none; display:block; width:237px; height:62px;}
+#header #workRoom a:hover{text-decoration:none; background:url(res/icon2-hover.gif) no-repeat 0 0;}
+
+#header #userInfo{ float:left; width:237px; height:62px; position:relative; margin:13px 0 0 0; background:url(res/icon3-nor.gif) 0 0 no-repeat;}
+#header #userInfo h2{width:110px; height:8px; background:#fff; display:block; position:absolute; left:0px; top:9px; margin:14px 0 5px 81px; font:14px/16px Georgia, "Times New Roman", Times, serif; color:#709CA1; z-index:1; text-transform:uppercase;}
+#header #userInfo a{text-decoration:none; display:block; width:237px; height:62px;}
+#header #userInfo a:hover{text-decoration:none; background:url(res/icon3-hover.gif) no-repeat 0 0;}
+
+/* BODY PANEL */
+#bodyPan{width:1200px; height:980px; position:relative; margin:0 auto; padding:0;}
+#bodyCenter{width:800px; height:450px; position:relative; margin:0 auto; padding:0; }
+#bodyCenter h1{height: 48px; position: relative; left: 80px;top : 40px; bottom: 40px; padding: 30px 60px 0 50px; margin: 12px 0 40px 220px; font-size: 15px; color: #3D3C2C; text-transform: uppercase;}
+#bodyCenter h2{height: 48px; position: relative; left: 0px;top : 40px; bottom: 40px; padding: 30px 60px 0 50px; margin: 0px 0 40px 220px; font-size: 14px; color: #3D3C2C; text-transform: uppercase;}
+#bodyCenter #formAddNew{ width:550px; height: 700px; background-position: center; background: #EBE9D7; padding: 0; margin: 60px 0 0 120px; color:#333227;}
+#bodyCenter #formAddNew label{ width:100px; height: 16px; display: block; float:left; margin: 0px 20px 9px 20px; padding: 14px 15px 0 16px; font-size:14px;	color:#DB2E66;}
+#bodyCenter #formAddNew label.elpadding{padding:2px 15px 0 16px;}
+#bodyCenter #formAddNew span{width: 20px; height: 16px; display: block; float:left; margin: 0px 0px 9px 0px; padding: 14px 15px 0 16px; font-size:14px;	color:#DB2E66;}
+#bodyCenter #formAddNew span.elpadding{padding:2px 15px 0 16px;}
+#bodyCenter #formAddNew fieldset {border:0; text-align: left ;margin :0 0 0 0;}
+#bodyCenter #formAddNew input[type=text]{float:left; display:block; width:330px; height:16px;  margin:20px 20px 9px 20px;}
+#bodyCenter #formAddNew input[type=radio]{float:left; display:block; width:10px; height:16px;  margin:20px 10px 9px 0px;}
+#bodyCenter #formAddNew input.gobutton{left:100px; background:url(res/arrow4.gif) no-repeat 55px 0 #63614F; border:none; width:66px; height:24px; display:block; margin:12px 0px 0 305px; padding:0 0 0 2px; text-decoration:none; color:#fff; font:14px/21px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase; text-align:left;}
+#bodyCenter #formAddNew input.fieldpadding{margin:2px 0 20px 0}
+
+#bodyCenter #form_login{width:550px; height: 300px; background-position: center; background: #EBE9D7; padding: 0; margin: 80px 0px 0 50px; color:#333227;}
+#bodyCenter #form_login label{ width:140px; height: 20px; display: block; float:left; margin: 0px 20px 9px 20px; padding: 14px 15px 0 16px; font-size:14px;	color:#DB2E66;}
+#bodyCenter #form_login label.elpadding{padding:2px 20px 0 16px;}
+#bodyCenter #form_login input[type=text]{float:left; display:block; width:290px; height:20px;  margin:20px 20px 9px 20px;}
+#bodyCenter #form_login input[type=password]{float:left; display:block; width:290px; height:20px;  margin:20px 20px 9px 20px;}
+#bodyCenter #form_login input.gobutton{left:100px; background:url(res/arrow4.gif) no-repeat 55px 0 #63614F; border:none; width:66px; height:21px; display:block; margin:30px 0px 0 305px; padding:0 0 0 2px; text-decoration:none; color:#fff; font:14px/21px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase; text-align:left;}
+#bodyCenter #form_login input.fieldpadding{margin:2px 0 30px 0}
+#bodyCenter #form_login p.message{left: 20px; top:20px; right: 20px; padding:5px; margin:12px 25px 20px;font:14/16px Georgia, "Times New Roman", Times, serif;	color:#3D3C2C;}
+
+/*Left Panel */
+#leftPan{width:239px; height:980px; position:relative;left:8px; margin:0; padding:0px;}
+#leftmemberPan{width:237px; height:235px; position:relative; top: 96px; margin:0 auto; padding:0; border:1px solid #DCDAC2; background:#fff; color:#000;}
+#leftmemberPan h2{height:48px; background:url(res/symbol4.gif) 0 0 no-repeat #fff; display:block; position:relative; padding:0 0 0 57px; margin:12px 0 20px 13px; font:16px/48px  Georgia,"Times New Roman", Times, serif; color:#5EA000; text-transform:uppercase;}
+#leftmemberPan h2 span{background:#fff; color:#3D3C2C;}
+#leftmemberPan p.message{left: 20px; top:20px; right: 20px; padding:5px; margin:12px 25px 20px;font:14/16px Georgia, "Times New Roman", Times, serif;	color:#3D3C2C;}
+#leftmemberPan p a{text-decoration: none;}
+#leftmemberPan p a:hover{text-decoration: none; color:#023A40;}
+#leftPan form{width:220px; height:135px; background:#EBE9D7; padding:0; margin:20px 0 0 8px; color:#333227;}
+#leftPan form label{width:72px; display:block; float:left; padding:14px 15px 0 16px; }
+#leftPan form label.pwdpadding{padding:2px 15px 0 16px;}
+#leftPan form span{float:left; top:5px; margin:10px auto 0px;font-size:10px;	color:#DB2E66;}
+#leftPan form input{ float:left; display:block; width:101px; height:16px; margin:14px 0 9px 0}
+#leftPan form input.fieldpadding{margin:2px 0 9px 0}
+#leftPan h3{height:48px; background:#FCFAE6; display:block; float:right; padding:0 0 0 57px; margin:48px 0 22px 13px; font:28px/48px Georgia, "Times New Roman", Times, serif; color:#3D3C2C;}
+#leftPan ul{ display:block; float:right; width:150px; height:327px;}
+#leftPan ul li{background:url(res/arrow3.gif) 140px 10px no-repeat; padding:0px 20px 0 0; text-align:right;} 
+#leftPan ul li a{text-decoration:underline; color:#3D3C2C; background:#FCFAE6;}
+#leftPan ul li a:hover{text-decoration:none;}
+
+#leftPango{width:220px; height:25px; position:absolute; top:160px; left:8px; border-top:1px solid #fff; background:#B0AD93; display:block; padding:0; margin:0; font-size:12px; color:#FFFFFA; line-height:23px; font-weight:bold;}
+#leftPango p.textposition a{float:left; padding:0 0 0 20px; margin:0; text-decoration:none; color:#FFFFFA; background:#B0AD93;}
+#leftPango p.textposition a:hover{text-decoration:underline; background:none;}
+#leftPan form input.gobutton{float:right; background:url(res/arrow4.gif) no-repeat 50px 0 #63614F; border:none; width:66px; height:21px; display:block; margin:2px 0 0 0; padding:0 0 0 5px; text-decoration:none; color:#fff; font:14px/21px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase; text-align:left;}
+#leftPango a:hover{background:url(res/arrow4.gif) no-repeat 50px 0px #333229; text-decoration:none; color:#fff;}
+
+#leftPango{width:220px; height:25px; position:absolute; top:160px; left:8px; border-top:1px solid #fff; background:#B0AD93; display:block; padding:0; margin:0; font-size:12px; color:#FFFFFA; line-height:23px; font-weight:bold;}
+#leftPango p.textposition a{float:left; padding:0 0 0 20px; margin:0; text-decoration:none; color:#FFFFFA; background:#B0AD93;}
+#leftPango p.textposition a:hover{text-decoration:underline; background:none;}
+#leftPan form input.gobutton{float:right; background:url(res/arrow4.gif) no-repeat 50px 0 #63614F; border:none; width:66px; height:21px; display:block; margin:2px 0 0 0; padding:0 0 0 5px; text-decoration:none; color:#fff; font:14px/21px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase; text-align:left;}
+#leftPango a:hover{background:url(res/arrow4.gif) no-repeat 50px 0px #333229; text-decoration:none; color:#fff;}
+
+/* Left Menu */
+#leftPanMenu{ width:237px; height:214px; position:relative; top:48px ; margin: 0 auto; }
+#leftPan #schedule{ float:left; width:237px; height:62px; position:relative; margin:0 auto; background:url(res/icon1-nor.gif) 0 0 no-repeat;}
+#leftPan #schedule h2{width:110px; height:8px; background:#fff; display:block; position:absolute; left:0px; top:9px; margin:14px 0 5px 81px; font:14px/16px Georgia, "Times New Roman", Times, serif; color:#709CA1; z-index:1; text-transform:uppercase;}
+#leftPan #schedule a{text-decoration:none; display:block; width:237px; height:62px;}
+#leftPan #schedule:hover{text-decoration:none; background:url(res/icon1-hover.gif) no-repeat 0 0;}
+
+#leftPan #workRoom{ float:left; width:237px; height:62px; position:relative; margin:13px 0 0 0; background:url(res/icon2-nor.gif) 0 0 no-repeat;}
+#leftPan #workRoom h2{width:110px; height:8px; background:#fff; display:block; position:absolute; left:0px; top:9px; margin:14px 0 5px 81px; font:14px/16px Georgia, "Times New Roman", Times, serif; color:#709CA1; z-index:1; text-transform:uppercase;}
+#leftPan #workRoom a{text-decoration:none; display:block; width:237px; height:62px;}
+#leftPan #workRoom a:hover{text-decoration:none; background:url(res/icon2-hover.gif) no-repeat 0 0;}
+
+#leftPan #userInfo{ float:left; width:237px; height:62px; position:relative; margin:13px 0 0 0; background:url(res/icon3-nor.gif) 0 0 no-repeat;}
+#leftPan #userInfo h2{width:110px; height:8px; background:#fff; display:block; position:absolute; left:0px; top:9px; margin:14px 0 5px 81px; font:14px/16px Georgia, "Times New Roman", Times, serif; color:#709CA1; z-index:1; text-transform:uppercase;}
+#leftPan #userInfo a{text-decoration:none; display:block; width:237px; height:62px;}
+#leftPan #userInfo a:hover{text-decoration:none; background:url(res/icon3-hover.gif) no-repeat 0 0;}
+
+/*Right Panel */
+#rightPan{width:900px; height:950px; position:absolute; top:48px; right:10px; border:1px solid #DCDAC2; background:#fff; color:#3D3C2C;}
+#rightbodyPan{width:880px; height:930px; overflow: auto; position:absolute; top:10px; left:10px; background:#FCFAE6; color:#3D3C2C;}
+#rightbodyPan #form_upload{width:580px; height: 60px; background-position: center; background: #EBE9D7; padding: 0; margin: 80px 0px 50px 80px; color:#333227;}
+#rightbodyPan #form_upload input[type=file]{float:left; display:block; width:290px; height:20px;  margin:20px 30px 9px 70px;}
+#rightbodyPan #form_upload input.gobutton{left:50px; background:url(res/arrow4.gif) no-repeat 55px 0 #63614F; border:none; width:70px; height:21px; display:block; margin:0px 0px 9 20px; padding:0 0 0 2px; text-decoration:none; color:#fff; font:14px/21px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase; text-align:left;}
+#rightbodyPan #h1Normal {height: 48px; position: relative; left: 80px;top : 40px; bottom: 40px; padding: 30px 60px 0 50px; margin: 12px 0 40px 220px; font-size: 20px; color: #3D3C2C; text-transform: uppercase;}
+#rightbodyPan #h1Edit {background:url(res/Draft.gif) 100% 0 no-repeat;height: 48px; position: relative; left: 80px;top : 40px; bottom: 40px; padding: 30px 60px 0 50px; margin: 12px 0 40px 220px; font:28px/28px Georgia, "Times New Roman", Times, serif; color: #3D3C2C;}
+#rightbodyPan #h2Project {background:url(res/BarGraph.gif) 100% 0 no-repeat; width: 170px; height: 48px; position: relative; left: 80px;top : 40px; bottom: 40px; padding: 30px 60px 0 50px; margin: 12px 0 40px 220px; font:28px/28px Georgia, "Times New Roman", Times, serif; color: #3D3C2C;}
+#rightbodyPan #h2Room{background:url(res/Home.gif) 100% 0 no-repeat; width: 170px; height: 48px; position: relative; left: 80px;top : 40px; bottom: 40px; padding: 30px 60px 0 50px; margin: 12px 0 40px 220px; font:28px/28px Georgia, "Times New Roman", Times, serif; color: #3D3C2C;}
+/*#rightbodyPan #h2Chat{background:url(res/chat.gif) 100% 0 no-repeat; width: 170px; height: 48px; position: relative; left: 80px;top : 40px; bottom: 40px; padding: 30px 60px 0 50px; margin: -10px 0 10px 220px; font:28px/28px Georgia, "Times New Roman", Times, serif; color: #3D3C2C;}*/
+#rightbodyPan #h2File{background:url(res/BarGraph.gif) 100% 0 no-repeat; width: 350px; height: 48px; position: relative; left: 0px;top : 40px; bottom: 40px; padding: 30px 60px 0 50px; margin: 12px 0 100px 150px; font-size: 20px; color: #3D3C2C; text-transform: uppercase;}
+#rightbodyPan #h1Calendar {background:url(res/Calendar.gif) 100% 0 no-repeat ;height: 48px; position: relative; left: 80px;top : 40px; bottom: 40px; padding: 30px 60px 0 50px; margin: 12px 0 40px 220px; font:28px/28px Georgia, "Times New Roman", Times, serif; color: #3D3C2C;}
+#rightbodyPan #h2Normal{width:266px; height:31px; display:block; position: relative; background:url(res/symbol5.gif) 100% 0 no-repeat #FCFAE6; padding:24px 0 0 0; font:28px/28px Georgia, "Times New Roman", Times, serif; color:#3D3C2C; margin:20px 0 40px 300px ;}
+#rightbodyPan #h2Schedule{width:250px; height:31px; display:block; position: relative; background:url(res/Calendar.gif) 100% 0 no-repeat #FCFAE6; padding:24px 0 15px 0; font:28px/28px Georgia, "Times New Roman", Times, serif; color:#3D3C2C; margin:20px 0 40px 300px ;}
+#rightbodyPan #h2User{width:266px; height:31px; display:block; position: relative; background:url(res/User.gif) 100% 0 no-repeat #FCFAE6; padding:24px 0 0 0; font:28px/28px Georgia, "Times New Roman", Times, serif; color:#3D3C2C; margin:20px 0 40px 300px ;}
+#rightbodyPan p{padding:0px 80px 30px;}
+#rightbodyPan strong{padding:0px 80px 0px;}
+#rightbodyPan p.bluetext{background:#FCFAE6; color:#709CA1; font-size:18px; line-height:20px; padding:0 80px 26px;}
+#rightbodyPan p span{background:#FFFFFA; color:#3D3C2C;}
+#rightbodyPan #row:hover{background-color: #023A40 ; color: white;}
+#rightbodyPan a{text-decoration:none; width:15px; height:16px; color:#CC0000; line-height:24px;}
+#rightbodyPan a:hover{width:15px; height:16px;  text-decoration:none; line-height:24px;}
+
+#rightbodyPan textarea,pre,body{
+    /*font-family: serif;*/
+    color: midnightblue;
+    background-color: #F9F9FF;
+}
+
+#rightbodyPan pre {
+
+    /*width: 700px;*/
+    text-wrap: normal;
+    margin: 5px;
+    padding: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 5px;
+    display:block;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-x:auto;
+}
+
+#rightbodyPan textarea{
+
+    border: 1px;
+    border-style: solid;
+    border-color: #006cff;
+    border-radius: 5px;
+}
+
+
+
+#rightbodyPan textarea.messagebox
+{
+    padding: 5px;
+    resize: none;
+    width: 600px;
+    height: 100px;
+    /*text-indent: 5px;*/
+
+}
+
+#rightbodyPan input.button
+{
+
+    bottom: 10px;
+    border: 1px;
+    border-color: #006cff;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    background-color: lightskyblue;
+    position: relative;
+    border-radius: 5px;
+    /*margin-bottom: 10px;*/
+}
+
+#rightbodyPan div.divmessage{
+
+    display: block;
+    height: 100px;
+    /*width: 810px;*/
+}
+
+#rightbodyPan div.listmessage
+{
+    width: 710px;
+    border-color: #006cff;
+}
+
+#rightbodyPan div.messageelement
+{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 710px;
+    border-color: #ffffff;
+    background-color: lightskyblue;
+
+}
+#rightbodyPan div{
+
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+#rightbodyPan div.a
+{
+    padding-left: 20px;
+    background-color: lightskyblue;
+    text-decoration: none;
+    /*background-color: azure;*/
+}
+
+#rightbodyPan a
+{
+    text-decoration: none;
+    background-color: lightskyblue;
+
+}
+
+#rightbodyPan div.divTime{
+    color: #383838;
+    text-align: right;
+    padding-right: 5px;
+    /*padding-bottom: 10px;*/
+}
+
+#rightbodyPan div.timesend{
+
+    visibility: visible;
+    color: lightskyblue;
+
+}
+
+#rightbodyPan #timetable{ position:relative; width:850px; margin-top:-20px; padding:10px; border:0px solid #3D3C2C; letter-spacing:-0.04em; overflow:hidden; background: #EBE9D7;color:#333227;}
+#rightbodyPan #timetable input[type=checkbox]{width: 10px; height: 8px; display: block; margin: 5px 3px 3px 3px}
+#rightbodyPan #timetable #selectMonth{width:100px; height:20px; display:block; margin: 10px 0px 0px 220px}
+#rightbodyPan #timetable #selectYear{width:100px; height:20px; display:block; margin: -20px 0px 10px 370px}
+#rightbodyPan #timetable #goTime{width:66px; height:21px; background:url(res/arrow4.gif) no-repeat 55px 0 #63614F;display:block;  border:none;margin: -30px 0px 10px 520px; padding:0 0 0 2px; text-decoration:none; color:#fff; font:14px/21px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase; text-align:left;}
+#rightbodyPan #timetable input.gobutton{float:left; background:url(res/arrow4.gif) no-repeat 55px 0 #63614F; border:none; width:66px; height:21px; display:block; margin:20px 0px 5px 50px; padding:0 0 0 2px; text-decoration:none; color:#fff; font:14px/21px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase; text-align:left;}
+#rightbodyPan #calendar-table{width:800px; border:1px solid #ccc; border:1px solid #ccc;}
+#rightbodyPan #calendar-day-head{background-color:#ccc; font-weight:bold; text-align:center; border:1px solid #FFFFFF;}
+#rightbodyPan #calendar-td{ border:1px solid #ccc;}
+#rightbodyPan #calendar-td:hover{background-color:#023A40 ; color: white;border:1px solid #ccc;}
+
+#rightbodymore{width:710px; height:25px; border:1px solid #fff; background:#B0AD93; display:block; padding:2px; margin:0 60px 0 80px; font-size:12px; color:#FFFFFA; line-height:25px; font-weight:bold;}
+#rightbodymore p.textposition{float:left; padding:0 0 0 20px; margin:0;}
+#rightbodymore a{float:right; background:url(res/arrow4.gif) no-repeat 58px 1px #63614F; width:66px; display:block; position:relative; margin:1px 0 0 0; padding:0 0 0 10px; height:23px; text-decoration:none; color:#fff; font:14px/23px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#rightbodymore a:hover{background:url(res/arrow4.gif) no-repeat 58px 1px #333229; text-decoration:none; color:#fff;}
+#rightbodyPan h3{width:268px; height:31px; display:block; position: relative; background:url(res/symbol6.gif) 100% 0 no-repeat #FCFAE6; padding:24px 0 0 0; font:28px/28px Georgia, "Times New Roman", Times, serif; color:#3D3C2C; margin:27px 0 20px 80px ;}
+#rightbodyPan ul{width:328px; height:92px; position:relative; top:5px; left:80px; margin:0 20px 30px 0;}
+#rightbodyPan li{width:340px; background:url(res/arrow2.gif) 0 7px no-repeat; font:14px/24px Arial, Helvetica, sans-serif; padding:0 0 0 20px;}
+#rightbodyPan li a{text-decoration:none; width:235px; height:60px; background:#FCFAE6; color:#CC0000; text-decoration:underline; line-height:24px;}
+#rightbodyPan ul li a:hover{width:235px; height:60px;  text-decoration:none; line-height:24px;}
+
+#rightbodymorenext{width:710px; height:25px; border:1px solid #fff; background:#B0AD93; display:block; padding:2px; margin:50px 60px 0 80px; font-size:12px; color:#FFFFFA; line-height:25px; font-weight:bold;}
+#rightbodymorenext a{float:right; background:url(res/arrow4.gif) no-repeat 58px 1px #63614F; width:66px; display:block; position:relative; margin:1px 0 0 0; padding:0 0 0 10px; height:23px; text-decoration:none; color:#fff; font:14px/23px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#rightbodymorenext a:hover{background:url(res/arrow4.gif) no-repeat 58px 1px #333229; text-decoration:none; color:#fff;}
+
+/* /BODY PANEL */
+
+/* FOOTER PANEL */
+#footer{width:1200px; height:120px; position:relative; margin:0 auto; padding:0;}
+#footernext{width:1200px; height:120px; background-position:center; position:relative; top:0px; background:#B0AD93; color:#fff; margin:0;}
+#footer ul{width:380px; display:block; position:relative; margin: 30px 40px 10px 470px; top:33px; background-position: center; }
+#footer li{float:left; font:12px/15px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:normal;}
+#footer ul li a{padding:0 10px; color:#FFFFFA; background:#B0AD93; text-decoration:none;}
+#footer ul li a:hover{text-decoration:underline;}
+#footer ul li a.padl{padding:0 0 0 14px;}
+#footer p{ background:#B0AD93; margin:54px 470px 40px 80px; display:block; position:absolute; top:0px; right:40px; color:#FCFAE6; font:12px/15px "Trebuchet MS",Arial, Helvetica, sans-serif;}
